@@ -14,7 +14,7 @@ body {
 }
 
 .button {
-  display: block;
+  display: inline-block;
   border: 0;
   cursor: pointer;
   background: #FF5500;

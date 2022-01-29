@@ -7,10 +7,6 @@
   height: 333px;
 }
 
-.button--bright {
-  display: inline-block;
-}
-
 .hello__title, .hello__subtitle, .hello__btn-wrapper {
   text-align: center;
 }
