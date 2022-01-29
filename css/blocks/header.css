@@ -1,0 +1,52 @@
+.header {
+  margin-top: 21px;
+  margin-bottom: 155px;
+  height: 54px;
+}
+
+.header__container {
+  position: relative;
+}
+
+.logo, .menu, .menu__item {
+  display: inline-block;
+}
+
+.logo, .menu, .contacts {
+  position: absolute;
+}
+
+.menu {
+  left: 439px;
+  top: 21px;
+}
+
+.menu__item {
+  margin-right: 54px;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__item:hover {
+  color: #FF3D00;
+}
+
+.contacts {
+  right: 0px;
+  text-align: right;
+}
+
+.contacts__phone {
+  font-size: 26px;
+  font-style: normal;
+}
+
+.contacts__dropdown-title {
+  font-size: 13px;
+  text-decoration: underline;
+  font-style: normal;
+}
