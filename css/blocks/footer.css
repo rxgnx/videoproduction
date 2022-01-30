@@ -21,7 +21,7 @@
 }
 
 .footer__menu {
-  top: 63px;
+  top: 57px;
   left: 328px;
 }
 
@@ -41,11 +41,11 @@
 
 .socials {
   top: 49px;
-  right: 265px;
+  left: 702px;
 }
 
 .socials__item {
-  margin-right: 10px;
+  margin-right: 7px;
   width: 36px;
   height: 36px;
   vertical-align: middle;
