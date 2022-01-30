@@ -43,11 +43,13 @@
 }
 
 .offers__feature-people {
+  display: inline-block;
   width: 102px;
   margin-right: 81px;
 }
 
 .offers__feature-days {
+  display: inline-block;
   width: 123px;
   margin-right: 0;
 }
