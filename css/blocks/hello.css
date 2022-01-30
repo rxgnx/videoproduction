@@ -1,0 +1,23 @@
+.hello {
+  margin-bottom: 233px;
+}
+
+.hello__container {
+  width: 776px;
+}
+
+.hello__title, .hello__subtitle, .hello__btn-wrapper {
+  text-align: center;
+}
+
+.hello__text {
+  width: 776px;
+}
+
+.hello__title {
+  margin-bottom: 11px;
+}
+
+.hello__subtitle {
+  margin-bottom: 41px;
+}

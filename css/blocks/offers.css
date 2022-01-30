@@ -1,0 +1,68 @@
+.offers {
+  margin-bottom: 180px;
+}
+
+.offers__list {
+  display: inline-block;
+}
+
+.offers__item {
+  display: inline-block;
+  min-height: 478px;
+  width: 362px;
+  border-radius: 5px;
+  background: #fff;
+  margin-right: 22px;
+  padding: 36px 25px 57px 22px;
+  color: #000;
+  vertical-align: top;
+}
+
+.offers__item:hover {
+  box-shadow: 0 0 0 5px #CCC;
+}
+
+.offers__item:last-child {
+  margin-right: 0;
+}
+
+.offers__img {
+  margin-left: 7px;
+  margin-bottom: 30px;
+}
+
+.offers__title {
+  margin-bottom: 17px;
+}
+
+.offers__features {
+  margin-bottom: 25px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+  color: #666;
+}
+
+.offers__feature-people {
+  display: inline-block;
+  width: 102px;
+  margin-right: 77px;
+}
+
+.offers__feature-days {
+  display: inline-block;
+  width: 123px;
+  margin-right: 0;
+}
+
+.offers__feature-number {
+  font-weight: bold;
+  color: #000;
+}
+
+.offers__text {
+  font-size: 14px;
+  line-height: 157%;
+  color: #666666;
+  margin-bottom: 29px;
+}
