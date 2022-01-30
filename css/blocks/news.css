@@ -1,5 +1,5 @@
 .news {
-  margin-bottom: 124px;
+  margin-bottom: 143px;
 }
 
 .title {
@@ -31,7 +31,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 30px 26px;
+  padding: 27px 29px;
   min-height: 116px;
 }
 
@@ -41,13 +41,14 @@
 }
 
 .news__offer {
-  margin-bottom: 4px;
+  margin-bottom: 3px;
   font-weight: 700;
   font-size: 24px;
 }
 
 .news__desc {
   line-height: 131%;
+  max-width: 442px;
 }
 
 .news__items {
