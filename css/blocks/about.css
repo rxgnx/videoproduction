@@ -11,10 +11,11 @@
   background: url(/videoproduction/img/cameraman.png) center center / cover no-repeat;
 }
 
-.about__content {
+.about__desc {
   background: #fff;
   padding: 70px 81px;
   display: inline-block;
+  vertical-align: top;
   width: 785px;
   margin-left: -150px;
   margin-top: 166px;
@@ -26,6 +27,7 @@
 
 .about__text {
   margin-bottom: 43px;
+  color: #060606;
 }
 
 .about__text p {
