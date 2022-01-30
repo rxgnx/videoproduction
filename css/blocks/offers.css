@@ -8,7 +8,7 @@
 
 .offers__item {
   display: inline-block;
-  min-height: 476px;
+  min-height: 478px;
   width: 362px;
   border-radius: 5px;
   background: #fff;
@@ -43,7 +43,7 @@
 }
 
 .offers__feature-people {
-  width: 102px
+  width: 102px;
   margin-right: 81px;
 }
 
