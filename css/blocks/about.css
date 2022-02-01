@@ -40,3 +40,7 @@
 .about__text p:last-child {
   margin-bottom: 0;
 }
+
+.button--about {
+  padding: 18px 40px;
+}
