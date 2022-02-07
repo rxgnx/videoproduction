@@ -2,29 +2,30 @@
   margin-bottom: 51px;
 }
 
+.about__content {
+  display: flex;
+}
+
 .about__content:before {
   content: "";
-  display: inline-block;
-  vertical-align: top;
   width: 490px;
   height: 505px;
   background: url(/videoproduction/img/cameraman.png) center center / cover no-repeat;
+  display: block;
 }
 
 .about__desc {
   background: #fff;
-  padding: 70px 203px 70px 81px;
-  display: inline-block;
-  vertical-align: top;
+  padding: 74px 203px 70px 81px;
   min-height: 455px;
-  width: 785px;
-  margin-left: -140px;
+  max-width: 785px;
+  margin-left: -137px;
   margin-top: 98px;
   border-radius: 5px;
 }
 
-.title--dark {
-  margin-bottom: 37px;
+.about__title {
+  margin-bottom: 41px;
 }
 
 .about__text {
@@ -39,8 +40,4 @@
 
 .about__text p:last-child {
   margin-bottom: 0;
-}
-
-.button--about {
-  padding: 18px 40px;
 }

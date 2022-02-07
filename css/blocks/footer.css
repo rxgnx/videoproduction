@@ -1,65 +1,43 @@
-.footer {
-  height: 93px;
-  margin-bottom: 57px;
-  position: relative;
+.footer__container {
+  margin-top: auto;
 }
 
 .footer-container__content {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.footer__logo, .footer__menu, .menu__item, .socials, .socials__item, .footer__contacts {
-  display: inline-block;
+.footer-container__section {
+  min-height: 135px;
+  margin-bottom: 57px;
 }
 
-.footer__logo, .footer__menu, .footer__contacts, .socials {
-  position: absolute;
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__column {
+  display: flex;
+  align-items: center;
+}
+
+.footer__column--align--right {
+  justify-content: flex-end;
 }
 
 .footer__logo {
-  top: 42px;
+  margin-right: 133px;
 }
 
-.footer__menu {
-  top: 57px;
-  left: 328px;
-}
-
-.menu__item {
+.footer__menu-item {
   margin-right: 51px;
-  font-size: 14px;
-  vertical-align: middle;
-}
-
-.menu__item:last-child {
-  margin-right: 0;
-}
-
-.menu__item:hover {
-  color: #FF3D00;
-}
-
-.socials {
-  top: 49px;
-  left: 702px;
-}
-
-.socials__item {
-  margin-right: 7px;
-  width: 36px;
-  height: 36px;
-  vertical-align: middle;
-  background: center center no-repeat;
-}
-
-.socials__item:last-child {
-  margin-right: 0;
 }
 
 .footer__contacts {
-  top: 46px;
-  right: 0px;
-  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .footer__contacts-text {
@@ -69,37 +47,4 @@
 
 .footer__contacts-phone {
   font-size: 26px;
-  font-style: normal;
-}
-
-.socials__item--icon--telegram {
-  background-image: url(/videoproduction/img/telegram.png);
-}
-
-.socials__item--icon--telegram:hover {
-  background-image: url(/videoproduction/img/telegram_hover.png);
-}
-
-.socials__item--icon--vk {
-  background-image: url(/videoproduction/img/vk.png);
-}
-
-.socials__item--icon--vk:hover {
-  background-image: url(/videoproduction/img/vk_hover.png);
-}
-
-.socials__item--icon--fb {
-  background-image: url(/videoproduction/img/fb.png);
-}
-
-.socials__item--icon--fb:hover {
-  background-image: url(/videoproduction/img/fb_hover.png);
-}
-
-.socials__item--icon--insta {
-  background-image: url(/videoproduction/img/inst.png);
-}
-
-.socials__item--icon--insta:hover {
-  background-image: url(/videoproduction/img/inst_hover.png);
 }

@@ -3,21 +3,21 @@
 }
 
 .hello__container {
-  width: 776px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .hello__title, .hello__subtitle, .hello__btn-wrapper {
-  text-align: center;
-}
-
-.hello__text {
-  width: 776px;
+  display: flex;
+  justify-content: center;
 }
 
 .hello__title {
-  margin-bottom: 11px;
+  margin-bottom: 15px;
+  text-align: center;
 }
 
 .hello__subtitle {
-  margin-bottom: 41px;
+  margin-bottom: 44px;
 }

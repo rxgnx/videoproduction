@@ -1,0 +1,45 @@
+.offer {
+  border-radius: 5px;
+  background: #fff;
+  padding: 36px 29px 57px 22px;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+}
+
+.offer:hover {
+  box-shadow: 0 0 0 5px #CCC;
+}
+
+.offer__img {
+  margin-left: 7px;
+  margin-bottom: 35px;
+}
+
+.offer__title {
+  margin-bottom: 22px;
+}
+
+.offer__features {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 27px;
+  font-size: 16px;
+  color: #666;
+}
+
+.offer__feature-people {
+  margin-right: 73px;
+}
+
+.offer__feature-number {
+  font-weight: bold;
+  color: #000;
+}
+
+.offer__text {
+  font-size: 14px;
+  line-height: 157%;
+  color: #666666;
+  margin-bottom: 32px;
+}

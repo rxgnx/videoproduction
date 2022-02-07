@@ -1,52 +1,24 @@
 .header {
   margin-top: 21px;
-  margin-bottom: 155px;
-  height: 54px;
+  margin-bottom: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.header__container {
-  position: relative;
+.header__column {
+  display: flex;
+  align-items: center;
 }
 
-.logo, .menu, .menu__item {
-  display: inline-block;
+.header__column--align--right {
+  justify-content: flex-end;
 }
 
-.logo, .menu, .contacts {
-  position: absolute;
+.header__logo {
+  margin-right: 242px;
 }
 
-.menu {
-  left: 439px;
-  top: 19px;
-}
-
-.menu__item {
-  margin-right: 51px;
-  font-size: 14px;
-  vertical-align: middle;
-}
-
-.menu__item:last-child {
-  margin-right: 0;
-}
-
-.menu__item:hover {
-  color: #FF3D00;
-}
-
-.contacts {
-  right: 0px;
-  text-align: right;
-}
-
-.contacts__phone {
-  font-size: 26px;
-  font-style: normal;
-}
-
-.contacts__dropdown-title {
-  font-size: 13px;
-  text-decoration: underline;
-  font-style: normal;
+.top-line__header {
+  margin-bottom: 38px;
 }
