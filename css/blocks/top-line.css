@@ -1,0 +1,14 @@
+.top-line {
+  min-height: 416px;
+  background: url(/videoproduction/img/bottom-pic.png) center center no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 28px;
+}
+
+.top-line__container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
