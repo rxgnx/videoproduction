@@ -3,19 +3,11 @@
 }
 
 .hello__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.hello__title, .hello__subtitle, .hello__btn-wrapper {
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .hello__title {
   margin-bottom: 15px;
-  text-align: center;
 }
 
 .hello__subtitle {
