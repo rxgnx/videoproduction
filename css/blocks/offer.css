@@ -9,6 +9,7 @@
 
 .offer:hover {
   box-shadow: 0 0 0 5px #CCC;
+  transition: .5s;
 }
 
 .offer__img {

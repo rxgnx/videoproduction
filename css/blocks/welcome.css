@@ -1,0 +1,43 @@
+.welcome__wrapper {
+  background: url(/videoproduction/img/bg.png) center center no-repeat;
+}
+
+.welcome__block {
+  background: url(/videoproduction/img/rec.png) center center no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.welcome__content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  animation: myAnimation 0.9s;
+  animation-fill-mode: forwards;
+}
+
+.welcome__logo {
+  margin-bottom: 38px;
+}
+
+@keyframes myAnimation {
+  from {
+    transform: scale(0.1) rotate(30deg);
+  }
+
+  50% {
+    transform: rotate(-10deg);
+  }
+
+  70% {
+    transform: rotate(3deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

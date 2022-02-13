@@ -15,6 +15,7 @@
 
 .button:hover {
   background: #FF3D00;
+  transition: .5s;
 }
 
 .button--light {
@@ -26,8 +27,18 @@
 .button--light:hover {
   background: #FF5500;
   color: #fff;
+  transition: .5s;
 }
 
 .button--about {
   padding: 18px 40px;
+}
+
+.button--gray {
+  background: #8E8E8E;
+}
+
+.button--gray:hover {
+  background: #2B2B2B;
+  transition: .5s;
 }

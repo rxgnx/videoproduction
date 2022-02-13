@@ -98,3 +98,9 @@ h4 {
 .logo {
   display: block;
 }
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}

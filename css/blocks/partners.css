@@ -16,6 +16,7 @@
 
 .partners__item:hover {
   filter: grayscale(0);
+  transition: 0.5s;
 }
 
 .partners__item:nth-child(4n + 4) {

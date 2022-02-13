@@ -23,11 +23,12 @@
   height: 32px;
   font-weight: 700;
   line-height: 32px;
+  border-radius: 50%;
 }
 
 .paginator__number:hover {
   background: #FF5500;
-  border-radius: 50%;
+  transition: 0.3s;
 }
 
 .paginator-light__number {
@@ -36,4 +37,5 @@
 
 .paginator-light__number:hover {
   color: #fff;
+  transition: .2s;
 }

@@ -13,4 +13,5 @@
 
 .menu__item:hover {
   color: #FF3D00;
+  transition: .5s;
 }
