@@ -56,6 +56,16 @@
     padding-left: 9px;
 }
 
+.review__tags-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.review__tag {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
 .tag {
     font-size: 13px;
     color: #333;

@@ -15,3 +15,7 @@
   color: #FF3D00;
   transition: .5s;
 }
+
+.menu__item—active {
+  color: #FF3D00;
+}
