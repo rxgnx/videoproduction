@@ -1,0 +1,44 @@
+.button {
+  display: inline-block;
+  border: 0;
+  cursor: pointer;
+  background: #FF5500;
+  color: #fff;
+  border-radius: 35px;
+  padding: 18px 54px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #FF3D00;
+  transition: .5s;
+}
+
+.button--light {
+  background: transparent;
+  color: #FF5500;
+  box-shadow: 0 0 0 2px #FF5500;
+}
+
+.button--light:hover {
+  background: #FF5500;
+  color: #fff;
+  transition: .5s;
+}
+
+.button--about {
+  padding: 18px 40px;
+}
+
+.button--gray {
+  background: #8E8E8E;
+}
+
+.button--gray:hover {
+  background: #2B2B2B;
+  transition: .5s;
+}

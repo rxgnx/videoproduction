@@ -1,0 +1,13 @@
+.offers {
+  margin-bottom: 182px;
+}
+
+.offers__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.offers__item {
+  min-height: 476px;
+  width: calc(100% / 3 - 18px);
+}

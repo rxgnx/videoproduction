@@ -1,0 +1,15 @@
+.hello {
+  margin-bottom: 233px;
+}
+
+.hello__container {
+  text-align: center;
+}
+
+.hello__title {
+  margin-bottom: 15px;
+}
+
+.hello__subtitle {
+  margin-bottom: 44px;
+}

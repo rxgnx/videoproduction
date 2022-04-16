@@ -1,0 +1,215 @@
+.reviews__page-content {
+    padding: 94px 0 86px;
+}
+
+.reviews {
+    column-count: 2;
+    column-gap: 27px;
+    margin-bottom: 56px;
+}
+
+.reviews__item {
+    margin-bottom: 17px;
+}
+
+.review {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 52px 31px 37px 31px;
+    background: #F4F5F5;
+    border-radius: 5px;
+}
+
+.review__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 31px;
+}
+
+.review__photo {
+    margin-right: 20px;
+}
+
+.avatar {
+    width: 142px;
+    height: 142px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.review__user {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #2E77A4;
+    margin-bottom: 3px;
+}
+
+.review__user:hover {
+    text-decoration: underline;
+}
+
+.review__user:after {
+    content: url(/videoproduction/img/vk_blue.png);
+    height: 30px;
+    padding-left: 9px;
+}
+
+.review__tags-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.review__tag {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.tag {
+    font-size: 13px;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 50px;
+    background: #E7E7E7;
+    display: inline-block;
+}
+
+.tag--pink {
+    background: #F2D4C9;
+}
+
+.review__title {
+    font-size: 30px;
+    color: #202020;
+    font-weight: 700;
+    margin-bottom: 12px;
+    line-height: 128%;
+}
+
+.review__content-text {
+    color: #818181;
+    margin-bottom: 51px;
+    line-height: 169%;
+}
+
+.review__date {
+    color: #1A1B1E;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.separator {
+    background: #373737 url(/videoproduction/img/party.png) center center no-repeat;
+    min-height: 363px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.separator__content {
+    max-width: 50%;
+}
+
+.separator__title {
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: none;
+    line-height: 1.4;
+    max-width: 560px;
+}
+
+.separator__percentage {
+    color: #FF5300;
+}
+
+.form__inner-section {
+    padding: 83px 0 98px;
+}
+
+.form__inner-section-title {
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.form__row {
+  display: flex;
+  margin-bottom: 26px;
+}
+
+.form__input {
+    flex: 1;
+    margin-right: 28px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background: #fff;
+    padding: 20px 30px;
+    color: #1A1B1E;
+    font-size: 18px;
+}
+
+.form__input:focus {
+    outline: none;
+    border-color: #CCCCCC;
+}
+
+.form__input::placeholder {
+    color: #666666;
+}
+
+.form__input:last-child {
+    margin-right: 0;
+}
+
+.form__input--textarea {
+    height: 235px;
+    resize: none;
+    padding: 32px 30px;
+}
+
+.form__controls {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.form__controls-title {
+    width: 38%;
+    font-size: 18px;
+}
+
+.controls {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.controls__item {
+    margin-bottom: 10px;
+    margin-right: 13px;
+}
+
+.controls__element {
+    cursor: pointer;
+}
+
+.controls__checkbox:checked ~ .controls__tag {
+    background: #F2D4C9;
+}
+
+.controls__checkbox {
+    display: none;
+}
+
+.form__buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form__button {
+    margin-right: 13px;
+    padding: 18px 43px;
+}
+
+.form__button:last-child {
+    margin-right: 0;
+}

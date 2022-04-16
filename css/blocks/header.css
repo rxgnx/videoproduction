@@ -1,0 +1,24 @@
+.header {
+  margin-top: 21px;
+  margin-bottom: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__column {
+  display: flex;
+  align-items: center;
+}
+
+.header__column--align--right {
+  justify-content: flex-end;
+}
+
+.header__logo {
+  margin-right: 242px;
+}
+
+.top-line__header {
+  margin-bottom: 38px;
+}
